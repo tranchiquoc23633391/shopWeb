@@ -33,16 +33,33 @@ function switchTab(selectedTab) {
         inputDiv.innerHTML = `
             <div class="mb-3 mt-1">
                 <label class="col-5 form-label mb-3" for="Sdt"> Số điện thoại :</label>
-                <input type="Sdt" name="Sdt" placeholder="số điện thoại" id="txtSdt" class="col-7 form-control">
+                <input type="Sdt" name="Sdt" placeholder="  0-########" id="txtSdt" class="col-7 form-control">
             </div>
+
             <div class="mb-3 mt-1">
-                <label class="col-5 form-label mb-3" for="Sdt"> Mật khẩu</label>
-                <input type="password" name="password" placeholder="mật khẩu" id="txtPass" class="col-7 form-control">
+                <label class="col-5 form-label mb-3" for="NameDN"> Tên Đăng nhập :</label>
+                <input type="Sdt" name="Sdt" placeholder="  Ký tự không chứa số" id="txtName" class="col-7 form-control">
+            </div>
+
+            <div class="mb-3 mt-1">
+                <label class="col-5 form-label mb-3" for="GioiTinh"> Giới tính :</label>
+                
+                <select id="gender" class="col-7  form-select" style="height: 50px;">
+                    <option value="male">   Nam</option>
+                    <option value="female"> Nữ</option>
+                </select>
+            </div>
+            
+            <div class="mb-3 mt-1">
+                <label class="col-5 form-label mb-3" for="pass"> Mật khẩu</label>
+                <input type="password" name="password" placeholder=" ít nhất 6 ký tự chứa ít nhất một ký tự số và ký tự hoa" id="txtPass" class="col-7 form-control">
             </div>
             <div class="mb-3 mt-1">
                 <label class="col-5 form-label mb-3" for="confirmPassword"> Xác nhận mật khẩu</label>
-                <input type="password" name="confirmPassword" placeholder="xác nhận mật khẩu" id="txtConfirmPass" class="col-7 form-control">
+                <input type="password" name="confirmPassword" placeholder=" xác nhận mật khẩu" id="txtConfirmPass" class="col-7 form-control">
             </div>
+
+           
         `;
         buttonSubmit.innerHTML = `
             <button type="button" class="btn mt-3" style="background-color: rgb(255, 29, 29); color: white; width: 100%; height: 60px; font-weight: bold;" onclick="handleRegister()"> ĐĂNG KÝ</button>

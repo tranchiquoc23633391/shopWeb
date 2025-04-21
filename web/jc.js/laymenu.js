@@ -58,7 +58,7 @@ headerdiv.innerHTML = `
                 </li>
                 <li class="nav-item">
                     <div class="d-flex flex-column align-items-center">
-                        <a href="#" style="text-decoration: none; text-align: center;">
+                        <a href="../html/TradingCard.html" style="text-decoration: none; text-align: center;">
                             <img src="../img/icon/playing-cards.png" style="width: 40px; margin-top: 20px;">
                             <h5 style="font-size: 15px; margin-top: 10px;">Trading Card</h5>
                         </a>
@@ -74,7 +74,7 @@ headerdiv.innerHTML = `
                 </li>
                 <li class="nav-item">
                     <div class="d-flex flex-column align-items-center">
-                        <a href="#" style="text-decoration: none; text-align: center;">
+                        <a href="../html/modelKit.html" style="text-decoration: none; text-align: center;">
                             <img src="../img/icon/japan.png" style="width: 40px; margin-top: 20px;">
                             <h5 style="font-size: 15px; margin-top: 10px;">Model Kit</h5>
                         </a>

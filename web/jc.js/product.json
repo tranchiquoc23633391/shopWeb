@@ -1,0 +1,103 @@
+[
+  {
+    "sku": "ELAINA001",
+    "productName": "Elaina Flare Skirt ver. - Majo no Tabitabi",
+    "price": 450000,
+    "inStock": true,
+    "description": "Mô hình Elaina phiên bản váy xòe đến từ anime Majo no Tabitabi. Thiết kế chi tiết, màu sắc tươi sáng.",
+    "features": ["Chi tiết cao", "Chính hãng", "Tặng kèm hộp đựng"],
+    "tags": ["#Elaina", "#MajoNoTabitabi", "#Figure"],
+    "images": [
+      "../img/show/elaina.webp"
+    ]
+  },
+  {
+    "sku": "FERN001",
+    "productName": "Sousou no Frieren - Fern - Nendoroid Doll",
+    "price": 450000,
+    "inStock": true,
+    "description": "Búp bê Nendoroid Fern từ anime Sousou no Frieren. Thiết kế dễ thương, có thể tạo dáng linh hoạt.",
+    "features": ["Chất liệu cao cấp", "Khớp cử động linh hoạt", "Chính hãng Nhật Bản"],
+    "tags": ["#Fern", "#SousouNoFrieren", "#NendoroidDoll"],
+    "images": [
+      "../img/show/caTim.webp"
+    ]
+  },
+  {
+    "sku": "HITORI001",
+    "productName": "Bocchi the Rock! - Gotou Hitori - PM Figure",
+    "price": 390000,
+    "inStock": true,
+    "description": "Figure Gotou Hitori ngồi từ anime Bocchi the Rock!. Tạo hình đáng yêu, cảm xúc đặc trưng của nhân vật.",
+    "features": ["Tư thế ngồi độc đáo", "Chính hãng SEGA", "Chi tiết gương mặt sống động"],
+    "tags": ["#GotouHitori", "#BocchiTheRock", "#PMFigure"],
+    "images": [
+      "../img/show/bocchi.webp"
+    ]
+  },
+  {
+    "sku": "ARONA001",
+    "productName": "Arona Osuwari Figure - Blue Archive",
+    "price": 499000,
+    "inStock": true,
+    "description": "Mô hình Arona tạo hình ngồi cực dễ thương từ game Blue Archive. Phù hợp trưng bày trên bàn học hoặc làm quà tặng.",
+    "features": ["Phong cách chibi đáng yêu", "Màu sắc tươi sáng", "Chính hãng"],
+    "tags": ["#Arona", "#BlueArchive", "#OsuwariFigure"],
+    "images": [
+      "../img/show/arona.webp"
+    ]
+  },
+
+  {
+    "sku": "HITORI002",
+    "productName": "Bocchi the Rock! - Gotou Hitori - PM Figure",
+    "price": 3000000,
+    "inStock": true,
+    "description": "Figure Gotou Hitori đứng với cây guitar, từ anime Bocchi the Rock!. Phong cách punk đáng yêu.",
+    "features": ["Chi tiết sắc nét", "Màu sắc nổi bật", "Chính hãng SEGA"],
+    "tags": ["#GotouHitori", "#BocchiTheRock", "#PMFigure"],
+    "images": ["../img/spHot/bocchi.jpg"]
+  },
+  {
+    "sku": "ALICE001",
+    "productName": "Blue Archive - Tendou Arisu - Alice Figure",
+    "price": 1899000,
+    "inStock": true,
+    "description": "Figure Tendou Arisu từ Blue Archive. Thiết kế trang phục đẹp mắt và chi tiết vũ khí đặc sắc.",
+    "features": ["Tư thế chiến đấu ấn tượng", "Chi tiết tóc và trang phục tinh tế", "Chính hãng"],
+    "tags": ["#TendouArisu", "#BlueArchive", "#AnimeFigure"],
+    "images": ["../img/spHot/arisu.webp"]
+  },
+  {
+    "sku": "DUSK001",
+    "productName": "Arknights - Dusk - Everything is a Miracle",
+    "price": 7150000,
+    "inStock": true,
+    "description": "Figure Dusk từ Arknights, phiên bản Everything is a Miracle. Tạo hình nghệ thuật, thần bí.",
+    "features": ["Chi tiết cao cấp", "Tông màu ma mị", "Chính hãng"],
+    "tags": ["#Arknights", "#Dusk", "#EverythingIsAMiracle"],
+    "images": ["../img/spHot/a9.webp"]
+  },
+  {
+    "sku": "RAIDEN001",
+    "productName": "Genshin Impact - Raiden Shogun Nendoroid",
+    "price": 1450000,
+    "inStock": true,
+    "description": "Nendoroid Raiden Shogun từ Genshin Impact. Dễ thương, linh hoạt, đi kèm phụ kiện vũ khí.",
+    "features": ["Gương mặt thay thế", "Chi tiết nhỏ tinh xảo", "Chính hãng Good Smile"],
+    "tags": ["#RaidenShogun", "#GenshinImpact", "#Nendoroid"],
+    "images": ["../img/spHot/genshin.webp"]
+  },
+  {
+    "sku": "JINSHI001",
+    "productName": "WuWa - Jinshi - 3D Printed Figure",
+    "price": 1999000,
+    "inStock": true,
+    "description": "Figure Jinshi từ WuWa được in 3D, thiết kế nghệ thuật và độc đáo, trang phục tinh xảo.",
+    "features": ["In 3D chất lượng cao", "Phong cách fantasy", "Chi tiết sắc nét"],
+    "tags": ["#Jinshi", "#WuWa", "#3DPrintedFigure"],
+    "images": ["../img/spHot/wutheringwaves.webp"]
+  }
+
+  
+]
