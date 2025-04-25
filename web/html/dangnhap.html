@@ -47,6 +47,12 @@
             height: 55px; /* Điều chỉnh chiều cao theo ý muốn */
         }
 
+         
+        input{
+            height: 55px; /* Điều chỉnh chiều cao theo ý muốn */
+        }
+
+
 
         .separator {
             display: flex;
@@ -88,10 +94,10 @@
         <!-- mx-auto là ra giữ -->
         <div class=" mx-auto" style="width: 65% ; margin-top: 50px;">
         <div class="d-flex justify-content-center" style="gap: 70px;">
-            <button class="tab" id="login" onclick="switchTab(this)" style="font-size: 24px;">
+            <button class="tab" id="login"  style="font-size: 24px;">
                 Đăng nhập
             </button>
-            <button class="tab" id="resistance" onclick="switchTab(this)" style="font-size: 24px;">
+            <button class="btn mt-3" style="background-color: rgb(255, 29, 29); color: white; width: 40%;; font-weight: bold;" data-bs-toggle="modal" data-bs-target="#registerModal">
                 Đăng ký
             </button>
         </div>
@@ -102,6 +108,18 @@
             <form action="">
 
                 <div id="input">
+                    <div class="mb-3 mt-1">
+                        <label class="col-5 form-label mb-3" for="Sdt"> Tên Đăng Nhập :</label>
+                        <input type="Sdt" name="Sdt" placeholder="Tên Đăng Nhập" id="txtSdt" class="col-7 form-control">
+                    </div>
+                    <div class="mb-3 mt-1">
+                        <label class="col-5 form-label mb-3" for="Sdt"> Mật khẩu</label>
+                        <input type="password" name="password" placeholder="mật khẩu" id="txtPass" class="col-7 form-control">
+                    </div>
+                    <div>
+                        <a href="" style="margin-left: 82%;" id="quenmatkhau"> Quên mật khẩu?</a>
+                    </div>
+
                     
                 </div>
                
@@ -145,25 +163,122 @@
             
         </div>
 
+
+
+
+
+
     </div>
 
+
+
+
+
+<!-- Modal Đăng Ký -->
+<div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-center w-100" id="registerModalLabel">Đăng Ký Thành Viên</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <!-- Họ và Tên -->
+                    <div class="mb-3 mt-1 row">
+                        <label class="col-4 form-label" for="txtHoVaTen">Họ và Tên:</label>
+                        <div class="col-8">
+                            <input type="text" id="txtHoVaTen" name="HoVaTen" placeholder="Ký tự đầu viết hoa và không chứa số" class="form-control">
+                            <span class="error-message"></span>
+                        </div>
+                    </div>
+
+                    <!-- Tên Đăng Nhập -->
+                    <div class="mb-3 mt-1 row">
+                        <label class="col-4 form-label" for="txtTenDN">Tên Đăng Nhập:</label>
+                        <div class="col-8">
+                            <input type="text" id="txtTenDN" name="TenDN" placeholder="Ký tự không chứa số" class="form-control">
+                            <span class="error-message"></span>
+                        </div>
+                    </div>
+
+                    <!-- Email -->
+                    <div class="mb-3 mt-1 row">
+                        <label class="col-4 form-label" for="txtEmail">Email:</label>
+                        <div class="col-8">
+                            <input type="email" id="txtEmail" name="Email" placeholder="abc@email.com" class="form-control">
+                            <span class="error-message"></span>
+                        </div>
+                    </div>
+
+                    <!-- Địa chỉ -->
+                    <div class="mb-3 mt-1 row">
+                        <label class="col-4 form-label" for="txtDaiChi">Địa chỉ:</label>
+                        <div class="col-8">
+                            <textarea id="txtDaiChi" name="DiaChi" placeholder="Giới hạn 200 ký tự" class="form-control" rows="3"></textarea>
+                            <span class="error-message"></span>
+                        </div>
+                    </div>
+
+                    <!-- Giới tính -->
+                    <div class="mb-3 mt-1 row">
+                        <label class="col-4 form-label" for="txtGioiTinh">Giới tính:</label>
+                        <div class="col-8">
+                            <select id="txtGioiTinh" name="GioiTinh" class="form-select">
+                                <option value="male">Nam</option>
+                                <option value="female">Nữ</option>
+                                <option value="other">Khác</option>
+                            </select>
+                            <span class="error-message"></span>
+                        </div>
+                    </div>
+
+                    <!-- Ngày sinh -->
+                    <div class="mb-3 mt-1 row">
+                        <label class="col-4 form-label" for="txtNgaySinh">Ngày sinh:</label>
+                        <div class="col-8">
+                            <input type="date" id="txtNgaySinh" name="NgaySinh" class="form-control">
+                            <span class="error-message"></span>
+                        </div>
+                    </div>
+
+                    <!-- Mật khẩu -->
+                    <div class="mb-3 mt-1 row">
+                        <label class="col-4 form-label" for="txtPass">Mật khẩu:</label>
+                        <div class="col-8">
+                            <input type="password" id="txtPass" name="password" placeholder="Ít nhất 6 ký tự chứa ít nhất một ký tự số và ký tự hoa" class="form-control">
+                            <span class="error-message"></span>
+                        </div>
+                    </div>
+
+                    <!-- Xác nhận Mật khẩu -->
+                    <div class="mb-3 mt-1 row">
+                        <label class="col-4 form-label" for="txtConfirmPass">Xác nhận mật khẩu:</label>
+                        <div class="col-8">
+                            <input type="password" id="txtConfirmPass" name="confirmPassword" placeholder="Xác nhận mật khẩu" class="form-control">
+                            <span class="error-message"></span>
+                        </div>
+                    </div>
+
+                    <!-- Nút Đăng Ký -->
+                    <button type="submit" id="registerButton" class="btn btn-primary w-100">Đăng Ký</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="../jc.js/dangnhap_dangki.js"></script>     
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="../jc.js/eff.js"></script>
-    <script src="../jc.js/dangnhap_dangki.js"></script> 
+ 
     
     
     <script src="../jc.js/laymenu.js"></script> <!-- Thêm dòng này để gọi laymenu.js -->
     <script src="../jc.js/layfooter.js"></script> <!-- Thêm dòng này để gọi layfooter.js -->
 
 
-
-    <script>
-        // Gọi hàm switchTab với tab "Đăng nhập" khi trang được tải
-        document.addEventListener("DOMContentLoaded", function() {
-            switchTab(document.getElementById('login'));
-        });
-    </script>
     
 </body>
 </html>     

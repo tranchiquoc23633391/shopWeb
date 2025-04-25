@@ -88,6 +88,19 @@ headerdiv.innerHTML = `
                             </a>
                         </div>
                     </li>
+
+
+                    <li class="nav-item">
+                        <div class="d-flex flex-column align-items-center">
+                            <a href="gioithieuwebsite.html" style="text-decoration: none; text-align: center;">
+                                <img src="../img/logo/logo.png" style="width: 40px; margin-top: 20px;">
+                                <h5 style="font-size: 15px; margin-top: 10px;"> Giới thiệu website</h5>
+                            </a>
+                        </div>
+                    </li>   
+
+
+
                     <li class="nav-item">
                         <div class="d-flex flex-column align-items-center">
                             <a href="#" style="text-decoration: none; text-align: center;">
